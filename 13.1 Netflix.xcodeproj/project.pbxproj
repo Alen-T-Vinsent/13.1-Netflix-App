@@ -8,25 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		18E95CB6293FDB2A00083A59 /* _3_1_NetflixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E95CB5293FDB2A00083A59 /* _3_1_NetflixApp.swift */; };
-		18E95CB8293FDB2A00083A59 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E95CB7293FDB2A00083A59 /* ContentView.swift */; };
+		18E95CB8293FDB2A00083A59 /* ContentView-0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E95CB7293FDB2A00083A59 /* ContentView-0.swift */; };
 		18E95CBA293FDB2B00083A59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E95CB9293FDB2B00083A59 /* Assets.xcassets */; };
 		18E95CBD293FDB2B00083A59 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E95CBC293FDB2B00083A59 /* Preview Assets.xcassets */; };
-		18E95CC4293FDD3600083A59 /* splashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E95CC3293FDD3600083A59 /* splashScreenView.swift */; };
+		18E95CC4293FDD3600083A59 /* splashScreenView-1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E95CC3293FDD3600083A59 /* splashScreenView-1.swift */; };
 		18E95CC7293FDEE900083A59 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 18E95CC6293FDEE900083A59 /* SDWebImageSwiftUI */; };
 		18E95CCB293FE81E00083A59 /* logo2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18E95CCA293FE81E00083A59 /* logo2.gif */; };
-		18E95CCE293FEF0F00083A59 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E95CCD293FEF0F00083A59 /* HomeView.swift */; };
+		18E95CCE293FEF0F00083A59 /* OnboardView-2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E95CCD293FEF0F00083A59 /* OnboardView-2.swift */; };
+		18E95CD02940081900083A59 /* LoggedOutView-3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E95CCF2940081900083A59 /* LoggedOutView-3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		18E95CB2293FDB2A00083A59 /* 13.1 Netflix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "13.1 Netflix.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E95CB5293FDB2A00083A59 /* _3_1_NetflixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _3_1_NetflixApp.swift; sourceTree = "<group>"; };
-		18E95CB7293FDB2A00083A59 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		18E95CB7293FDB2A00083A59 /* ContentView-0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-0.swift"; sourceTree = "<group>"; };
 		18E95CB9293FDB2B00083A59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18E95CBC293FDB2B00083A59 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		18E95CC3293FDD3600083A59 /* splashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splashScreenView.swift; sourceTree = "<group>"; };
+		18E95CC3293FDD3600083A59 /* splashScreenView-1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "splashScreenView-1.swift"; sourceTree = "<group>"; };
 		18E95CCA293FE81E00083A59 /* logo2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = logo2.gif; path = "Assets For Project/logo2.gif"; sourceTree = SOURCE_ROOT; };
 		18E95CCC293FEC6700083A59 /* -3-1-Netflix-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "-3-1-Netflix-Info.plist"; sourceTree = SOURCE_ROOT; };
-		18E95CCD293FEF0F00083A59 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		18E95CCD293FEF0F00083A59 /* OnboardView-2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OnboardView-2.swift"; sourceTree = "<group>"; };
+		18E95CCF2940081900083A59 /* LoggedOutView-3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoggedOutView-3.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +64,10 @@
 			children = (
 				18E95CCC293FEC6700083A59 /* -3-1-Netflix-Info.plist */,
 				18E95CB5293FDB2A00083A59 /* _3_1_NetflixApp.swift */,
-				18E95CB7293FDB2A00083A59 /* ContentView.swift */,
-				18E95CC3293FDD3600083A59 /* splashScreenView.swift */,
-				18E95CCD293FEF0F00083A59 /* HomeView.swift */,
+				18E95CB7293FDB2A00083A59 /* ContentView-0.swift */,
+				18E95CC3293FDD3600083A59 /* splashScreenView-1.swift */,
+				18E95CCD293FEF0F00083A59 /* OnboardView-2.swift */,
+				18E95CCF2940081900083A59 /* LoggedOutView-3.swift */,
 				18E95CCA293FE81E00083A59 /* logo2.gif */,
 				18E95CB9293FDB2B00083A59 /* Assets.xcassets */,
 				18E95CBB293FDB2B00083A59 /* Preview Content */,
@@ -157,9 +160,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18E95CC4293FDD3600083A59 /* splashScreenView.swift in Sources */,
-				18E95CB8293FDB2A00083A59 /* ContentView.swift in Sources */,
-				18E95CCE293FEF0F00083A59 /* HomeView.swift in Sources */,
+				18E95CC4293FDD3600083A59 /* splashScreenView-1.swift in Sources */,
+				18E95CB8293FDB2A00083A59 /* ContentView-0.swift in Sources */,
+				18E95CD02940081900083A59 /* LoggedOutView-3.swift in Sources */,
+				18E95CCE293FEF0F00083A59 /* OnboardView-2.swift in Sources */,
 				18E95CB6293FDB2A00083A59 /* _3_1_NetflixApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
