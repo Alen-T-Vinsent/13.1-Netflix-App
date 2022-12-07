@@ -11,9 +11,11 @@ import SDWebImageSwiftUI
 struct SplashScreen: View {
     @State var animationFinished:Bool = false
     @State var removeGif:Bool = false
+    @State var header:Bool = false
     var body: some View {
+        OnboardHeaderView(header: $header)
         ZStack{
-            HomeView()
+            OnboardView()
             ZStack{
                 Color("BG")
                     .ignoresSafeArea()
@@ -24,6 +26,7 @@ struct SplashScreen: View {
                             Image("Netflix-logo-red-black-png")
                                 .resizable()
                                 .aspectRatio(contentMode: .fit)
+
                         }else{AnimatedImage(url: getLogoURL())
                                 .customLoopCount(nil)
                                 .aspectRatio(contentMode: .fit)
@@ -46,8 +49,8 @@ struct SplashScreen: View {
                         animationFinished = true
                     }
                     DispatchQueue.main.asyncAfter(deadline: .now()+1.5){
-                        
                         removeGif = true
+                        header = true
                     }
                 }
                 

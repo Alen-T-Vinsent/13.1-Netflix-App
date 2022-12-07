@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct OnboardView:View{
+struct OnboardViewModel:View{
     let systemImageName:String
     let title:String
     let description:String
@@ -17,6 +17,7 @@ struct OnboardView:View{
             Text(description)
                 .multilineTextAlignment(.center)
                 .foregroundColor(Color.secondary)
+                .padding(.bottom,100)
             
         }
         .padding(.horizontal,40)
