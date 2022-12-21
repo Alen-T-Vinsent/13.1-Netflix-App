@@ -6,6 +6,13 @@ struct OnboardView: View{
         UIPageControl.appearance().pageIndicatorTintColor = .gray
     }
     
+    @State private var isPresented = false
+    
+    
+   
+    
+//    @ObservedObject var store1:MovieStore
+    
     private let screenWidth = UIScreen.main.bounds.size.width
     var body: some View {
         NavigationView {
@@ -24,6 +31,8 @@ struct OnboardView: View{
                                     title: "No pesky contracts",
                                     description: "Join today,cancel anytime.")
                         
+                        
+                        
                     }
                     .tabViewStyle(.page(indexDisplayMode: .always))
                 }
@@ -31,6 +40,8 @@ struct OnboardView: View{
                 VStack{
                     Button {
                         print("sign in pressed")
+                        self.isPresented = true
+    
                     } label: {
                         Text("SIGN IN")
                             .padding()
@@ -45,7 +56,13 @@ struct OnboardView: View{
                 }
                 .padding()
             }
+            .fullScreenCover(isPresented: $isPresented, content: {
+                SignInPage()
+//                TabBarView()
+            })
         }
+        
+        
         
     }
     
