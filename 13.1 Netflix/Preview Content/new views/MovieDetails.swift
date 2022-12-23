@@ -1,10 +1,3 @@
-//
-//  MovieDetails.swift
-//  13.4 netflix movie app
-//
-//  Created by Apple  on 14/12/22.
-//
-
 import SwiftUI
 
 struct MovieDetails: View {

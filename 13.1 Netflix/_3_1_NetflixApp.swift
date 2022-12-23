@@ -9,10 +9,10 @@ import SwiftUI
 
 @main
 struct _3_1_NetflixApp: App {
-    @AppStorage("loggedIn") var loggedIn:Bool = false
+    @AppStorage("loggedIn") var loggedIn:Bool?
     var body: some Scene {
         WindowGroup {
-            if loggedIn{
+            if loggedIn!{
                 TabBarView()
                     .preferredColorScheme(.dark)
             }else{

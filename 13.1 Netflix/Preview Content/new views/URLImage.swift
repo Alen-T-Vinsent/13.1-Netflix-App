@@ -14,7 +14,7 @@ struct URLImage: View {
     
     @ObservedObject var imageLoader1 = ImageLoader()
     
-    init(url: String,placeholder:String = "placeholder") {
+    init(url: String,placeholder:String = "NetflixWithBGBlack") {
         self.url = url
         self.placeholder = placeholder
         self.imageLoader1.downloadImage(url: self.url)
@@ -25,7 +25,7 @@ struct URLImage: View {
         if let data = self.imageLoader1.downloadedData{
             return Image(uiImage: UIImage(data: data)!).renderingMode(.original).resizable()
         }else{
-            return Image("placeholder").renderingMode(.original).resizable()
+            return Image("NetflixWithBGBlack").renderingMode(.original).resizable()
         }
             
     }

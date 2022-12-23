@@ -9,7 +9,7 @@ struct SignInPage: View {
     @State var showAlert:Bool = false
     @AppStorage("username") private var username = "Alen"
     @AppStorage("userkey") private var userKey = "14307"
-    @AppStorage("loggedIn") private var loggedIn:Bool = true
+    @AppStorage("loggedIn") private var loggedIn:Bool?
     
     
     var isSignInButtonDisabled: Bool {
@@ -74,7 +74,7 @@ struct SignInPage: View {
                         print("doing login action...")
                         
                         if name == username && password == userKey{
-                            loggedIn = true
+                            self.loggedIn = true
                             showTabBarView = true
                         }else{
                             showAlert = true

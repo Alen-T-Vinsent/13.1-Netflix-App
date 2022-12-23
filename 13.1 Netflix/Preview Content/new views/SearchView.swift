@@ -40,7 +40,7 @@ struct SearchView: View {
                 }
             }
             .padding()
-            .navigationTitle(Text("NETFLIX"))
+            .navigationTitle(Text("Search"))
             .foregroundColor(Color.white)
             
         })
